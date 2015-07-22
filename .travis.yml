@@ -5,7 +5,9 @@ cache:
 sudo: false
 services: mongodb
 node_js:
+  - 0.12
   - 0.10
+  - iojs
 
 branches:
   only:
